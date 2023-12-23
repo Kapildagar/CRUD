@@ -1,0 +1,94 @@
+
+.heading{
+    max-width: 1024px;
+    width: fit-content;
+    min-width: 240px;
+    margin: auto;
+}
+.timedate{
+    max-width: 1024px;
+    min-width: 240px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.time ,.date{
+    font-size: 20px;
+    font-weight: 800;
+    width: 100px;
+    border: 2px solid;
+    text-align: center;
+}
+.tittle,.des{
+    max-width: 1024px;
+    min-width: 240px;
+    margin: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.inputtext{
+    border: 2px solid;
+    padding: 8px 5px;
+    width: 95%;
+    font-size: 14px;
+    margin:10px 0
+}
+textarea{
+    border: 2px solid;
+    padding:10px;
+    margin :10px 0;
+}
+
+.btn{
+    margin: auto;
+    width: fit-content;
+}
+button{
+    max-width: 150px;
+    min-width: 100px;
+    width: 125px;
+    height: 31px;
+    margin: 10px 0;
+}
+
+
+form{
+    max-width: 1024px;
+    min-width: 240px;
+    width: fit-content;
+    margin: auto;
+}
+
+.information{
+    max-width: 1024px;
+    min-width: 240px;
+    width: 60%;
+    margin: auto;
+    border: 2px solid;
+}
+
+table{
+    max-width: 1024px;
+    min-width: 240px;
+    width: 100%;
+    text-align: center;
+}
+
+.sno{
+    width: 10%;
+    border: 2px solid;
+}
+.ttittle{
+    width: 20%;
+    border: 2px solid;
+}
+.tdes{
+    width: 70%;
+    border: 2px solid;
+}

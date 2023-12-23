@@ -1,0 +1,31 @@
+<%- include("./paritals/header.ejs") -%>
+<body>
+    <h1 class="heading">Todo list</h1>
+    <div class="timedate"> 
+        <div class="date">
+            <span id="date"></span>
+            <span id="month"></span>
+        </div>
+         <div class="time">
+            <span id="hrs" ></span><span id="min"></span><span id="sec"></span>
+         </div>
+         <h1 id="day">day</h1>
+    </div>
+    
+    <from>  
+        <div class="tittle mar">
+            <label for="tittle">Tittle</label>
+            <input type="text" class="inputtext" name="tittle" value="<%=values.tittle%>" placeholder="enter the tittle" id="tittle">
+        </div>
+        <div class="des mar">
+            <label for="tittle">Description</label>
+            <textarea  id="description" placeholder="Description" ></textarea>
+        </div>
+        <div class="btn mar">
+        <button id="submit" onclick="eventhandler()" value="<%= values._id%>" type="submit">submit</button>
+        </div>
+    </from>  
+
+  
+    <script src="/js/update.js" ></script>
+    <%- include("./paritals/footer.ejs") -%>
